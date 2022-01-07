@@ -1,7 +1,7 @@
 #Download base image
 FROM arm64v8/debian:buster-slim
 
-#Set default timezone
+#Set default timezonehttps://github.com/AgatsumaZen1tsu/tsrpi/blob/main/Dockerfile.arm64v8-predownloaded
 ENV TIME_ZONE=America/Los_Angeles
 ENV DIST_UPDATE=0
 ENV TS_UPDATE=0
